@@ -1,0 +1,36 @@
+.info-section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #f0f9ff;
+  color: #0f172a;
+  text-align: center;
+}
+
+.info-section.alt {
+  background-color: #e0f2fe;
+}
+
+.info-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #0c4a6e;
+}
+
+.info-section p,
+.info-section ul {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.info-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info-section ul li::before {
+  content: "★ ";
+  color: #facc15;
+  font-weight: bold;
+}
