@@ -1,0 +1,11 @@
+<section style="max-width:600px; margin:30px auto 50px auto; background:#273746; padding:30px; border-radius:20px; box-shadow: 0 0 25px #c0392b;">
+  <h2 style="text-align:center; color:#e74c3c; font-family: 'Poppins', sans-serif; letter-spacing: 2px;">Declaration & Submit</h2>
+  <form>
+    <label style="color:#ecf0f1; font-weight:600; margin-bottom:15px;">
+      <input type="checkbox" required> I hereby declare that the information provided is true and correct.
+    </label>
+    <button type="submit" style="width:100%; background:#e74c3c; color:#fff; padding:15px; font-size:1.2rem; border:none; border-radius:15px; cursor:pointer; font-weight:bold; transition: background 0.3s ease;">
+      Submit Application
+    </button>
+  </form>
+</section>
