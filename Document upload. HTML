@@ -1,0 +1,13 @@
+<section style="max-width:600px; margin:30px auto; background:#2c3e50; padding:30px; border-radius:20px; box-shadow: 0 0 20px #9b59b6;">
+  <h2 style="text-align:center; color:#9b59b6; font-family: 'Poppins', sans-serif; letter-spacing: 2px;">Documents Upload</h2>
+  <form>
+    <label for="photo" style="color:#ecf0f1; font-weight:600;">Passport Size Photo *</label>
+    <input type="file" id="photo" name="photo" accept="image/*" required style="width:100%; margin-bottom:18px;">
+
+    <label for="signature" style="color:#ecf0f1; font-weight:600;">Signature *</label>
+    <input type="file" id="signature" name="signature" accept="image/*" required style="width:100%; margin-bottom:18px;">
+
+    <label for="marksheet" style="color:#ecf0f1; font-weight:600;">Marksheet (10th & 12th) *</label>
+    <input type="file" id="marksheet" name="marksheet" accept=".pdf,.jpg,.png" required style="width:100%; margin-bottom:18px;">
+  </form>
+</section>
