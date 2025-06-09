@@ -1,0 +1,39 @@
+<section style="max-width:600px; margin:30px auto; background:#34495e; padding:30px; border-radius:20px; box-shadow: 0 0 25px #2980b9;">
+  <h2 style="text-align:center; color:#f1c40f; font-family: 'Poppins', sans-serif; letter-spacing: 2px;">Personal Details</h2>
+  <form>
+    <label for="fullname" style="color:#ecf0f1; font-weight:600;">Full Name *</label>
+    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required style="width:100%; padding:12px; border-radius:10px; border:none; margin-bottom:18px; font-size:1.1rem;">
+
+    <label for="dob" style="color:#ecf0f1; font-weight:600;">Date of Birth *</label>
+    <input type="date" id="dob" name="dob" required style="width:100%; padding:12px; border-radius:10px; border:none; margin-bottom:18px; font-size:1.1rem;">
+
+    <label style="color:#ecf0f1; font-weight:600; margin-bottom:8px;">Gender *</label>
+    <div style="margin-bottom:18px;">
+      <label style="color:#ecf0f1; margin-right:20px;">
+        <input type="radio" name="gender" value="Male" required> Male
+      </label>
+      <label style="color:#ecf0f1; margin-right:20px;">
+        <input type="radio" name="gender" value="Female"> Female
+      </label>
+      <label style="color:#ecf0f1;">
+        <input type="radio" name="gender" value="Other"> Other
+      </label>
+    </div>
+
+    <label for="parentname" style="color:#ecf0f1; font-weight:600;">Father's / Mother's Name *</label>
+    <input type="text" id="parentname" name="parentname" placeholder="Enter parent's name" required style="width:100%; padding:12px; border-radius:10px; border:none; margin-bottom:18px; font-size:1.1rem;">
+
+    <label for="category" style="color:#ecf0f1; font-weight:600;">Category *</label>
+    <select id="category" name="category" required style="width:100%; padding:12px; border-radius:10px; border:none; margin-bottom:18px; font-size:1.1rem; color:#34495e;">
+      <option value="" disabled selected>Select your category</option>
+      <option>General</option>
+      <option>SC</option>
+      <option>ST</option>
+      <option>OBC</option>
+      <option>Others</option>
+    </select>
+
+    <label for="address" style="color:#ecf0f1; font-weight:600;">Address *</label>
+    <textarea id="address" name="address" placeholder="Full address" required rows="3" style="width:100%; padding:12px; border-radius:10px; border:none; margin-bottom:18px; font-size:1.1rem; resize:none;"></textarea>
+  </form>
+</section>
